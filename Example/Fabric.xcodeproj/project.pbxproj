@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0385A24119F04BA8003CFEDA /* FABButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0385A24019F04BA8003CFEDA /* FABButtonsViewController.m */; };
 		42CC695C80ACFC9DF17157A3 /* libPods-Fabric.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E91385152F642697DFF6F9B6 /* libPods-Fabric.a */; };
 		50D5EF002518D43D933A0B79 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA62DFE7059E81C055F55ED /* libPods-Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0385A23F19F04BA8003CFEDA /* FABButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABButtonsViewController.h; sourceTree = "<group>"; };
+		0385A24019F04BA8003CFEDA /* FABButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FABButtonsViewController.m; sourceTree = "<group>"; };
 		0DC48642540405A011D9BB02 /* Pods-Fabric.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabric.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fabric/Pods-Fabric.release.xcconfig"; sourceTree = "<group>"; };
 		0E98786BAE79BDB707753887 /* Pods-Fabric.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fabric.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fabric/Pods-Fabric.debug.xcconfig"; sourceTree = "<group>"; };
 		5A51B2809B32F36A3CEBFE3C /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0385A23E19F04B98003CFEDA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0385A23F19F04BA8003CFEDA /* FABButtonsViewController.h */,
+				0385A24019F04BA8003CFEDA /* FABButtonsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +144,7 @@
 		6003F593195388D20070C39A /* Fabric */ = {
 			isa = PBXGroup;
 			children = (
+				0385A23E19F04B98003CFEDA /* Controllers */,
 				6003F59C195388D20070C39A /* FABAppDelegate.h */,
 				6003F59D195388D20070C39A /* FABAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
@@ -361,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0385A24119F04BA8003CFEDA /* FABButtonsViewController.m in Sources */,
 				6003F59E195388D20070C39A /* FABAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FABViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

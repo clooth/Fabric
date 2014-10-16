@@ -10,21 +10,19 @@
 Pod::Spec.new do |s|
   s.name             = "Fabric"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Fabric."
+  s.summary          = "Beautiful User Interface Kit"
   s.description      = <<-DESC
-                       An optional longer description of Fabric
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A collection of beautifully designed user interface components 
+                       for iPhone and iPad applications.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Fabric"
+  s.homepage         = "https://github.com/clooth/Fabric"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Nico Hämäläinen" => "nico@sizeof.io" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Fabric.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Nico Hämäläinen" => "nico@sizeof.io" }
+  s.source           = { :git => "https://github.com/clooth/Fabric.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/clooth'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
@@ -33,6 +31,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

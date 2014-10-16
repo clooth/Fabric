@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0315BDDC00D6A419ECACFBFF /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D0EC70DB112450BA0A182789 /* EXPUnsupportedObject.h */; };
+		0385A23D19F04969003CFEDA /* FABCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0385A23C19F04969003CFEDA /* FABCircleButton.m */; };
 		05406F503D2DBB3C997285E9 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = C4DA9B60B2E4BA2D93077324 /* XCTestCase+Specta.h */; };
 		08DB9B8FCB1354D5AE1B744A /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 827935BD91F135BB22422144 /* EXPUnsupportedObject.m */; };
 		0BDE20BF57680130310C3D93 /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FE200058509F3BA0D82D1F /* EXPMatchers+haveCountOf.m */; };
@@ -212,6 +213,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0385A23B19F04969003CFEDA /* FABCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FABCircleButton.h; path = Pod/Classes/FABCircleButton.h; sourceTree = "<group>"; };
+		0385A23C19F04969003CFEDA /* FABCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FABCircleButton.m; path = Pod/Classes/FABCircleButton.m; sourceTree = "<group>"; };
 		0718B073242DC929CE241A21 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = src/SPTExampleGroup.h; sourceTree = "<group>"; };
 		0752232B126265908E926F3F /* Pods-Fabric.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fabric.debug.xcconfig"; sourceTree = "<group>"; };
 		09A76D01C15276F72141BB8A /* Pods-Tests-Expecta-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-Expecta-Private.xcconfig"; sourceTree = "<group>"; };
@@ -559,6 +562,8 @@
 		550D1A868BB3DAC34A9D35B1 /* Fabric */ = {
 			isa = PBXGroup;
 			children = (
+				0385A23B19F04969003CFEDA /* FABCircleButton.h */,
+				0385A23C19F04969003CFEDA /* FABCircleButton.m */,
 				29D7C13DDC51DB776D7C78B6 /* Support Files */,
 			);
 			name = Fabric;
@@ -1097,6 +1102,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0385A23D19F04969003CFEDA /* FABCircleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
