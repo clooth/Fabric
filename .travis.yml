@@ -1,6 +1,10 @@
+git status
 # reference: http://www.objc.io/issue-6/travis-ci.html
 
+before_install:
+  - brew update
+  - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
+
 language: objective-c
-# before_install: cd Example && pod install && cd -
 script:
 - xctool test -workspace Example/Fabric.xcworkspace -scheme Fabric -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
